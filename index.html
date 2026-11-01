@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<h1>Videos de Capacitación</h1>
+<p>Bienvenidos, equipo. A continuación, sus videos de hoy:</p>
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px;">
+
+  {% for video in site.data.videos %}
+    <div style="border: 1px solid #ccc; padding: 15px; border-radius: 8px; text-align: center;">
+      <h3>{{ video.titulo }}</h3>
+      
+      <!-- Reproductor de video HTML5 -->
+      <video 
+        width="100%" 
+        height="200" 
+        controls 
+        preload="metadata">
+        <source src="{{ video.archivo }}" type="video/mp4">
+        Tu navegador no soporta videos HTML5.
+      </video>
+      
+    </div>
+  {% endfor %}
+
+</div>
