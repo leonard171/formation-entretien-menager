@@ -1,9 +1,4 @@
 # Archivo: videos.yml
-- titulo: "Saludo del CEO"
-  id_youtube: "dQw4w9WgXcQ" # El código que va después de v= en YouTube
+- titulo: "Confirmation du service 48 heures à l'avance"
+  archivo: "C:\Users\lenny\Downloads\Confirmation service 1.1.mp4"
   
-- titulo: "Confirmation service 48 heures avant"
-  id_youtube: "9bZkp7q19f0"
-  
-- titulo: " Politique vol de temps"
-  id_youtube: "3JZ_D3ELwOQ"
