@@ -1,4 +1,4 @@
-- titulo: "Video de prueba"
-  archivo: "https://www.w3schools.com/html/mov_bbb.mp4"
+- titulo: "Confirmation service 1.1"
+  archivo: "Confirmation_service_1.1.mp4"
   duracion: "10s"
-  descripcion: "Video de prueba para verificar que el reproductor funciona."
+  descripcion: "Module de confirmation sur les procédures de service standard."
