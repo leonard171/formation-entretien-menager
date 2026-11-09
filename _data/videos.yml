@@ -2,3 +2,8 @@
   archivo: "confirmation.mp4"
   duracion: "10s"
   descripcion: "Module de confirmation sur les procédures de service standard."
+
+- titulo: " Service de remplacement"
+  archivo: "remplacement.mp4"
+  duracion: "24s"
+  descripcion: " Importance du service de remplacement."
